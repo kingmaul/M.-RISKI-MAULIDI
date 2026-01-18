@@ -1,0 +1,109 @@
+/* ==== WARNA DASAR ==== */
+
+body {
+    min-height: 100vh;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+body>div {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+/* CARD */
+
+.container {
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 14px;
+    padding: 25px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    max-width: 1100px;
+    /* INI KUNCINYA */
+    margin: 220px auto 60px auto;
+}
+
+
+/* JUDUL */
+
+
+/* ==== TABEL ==== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+/* HEADER */
+
+th {
+    background: #5b6ee1;
+    color: #ffffff;
+    padding: 12px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/* ISI */
+
+td {
+    padding: 10px;
+    text-align: center;
+    color: #1f2937;
+    /* PENTING: teks jadi jelas */
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/* BARIS */
+
+tr:nth-child(even) {
+    background: #f3f4f6;
+}
+
+tr:nth-child(odd) {
+    background: #ffffff;
+}
+
+tr:hover {
+    background: #e0e7ff;
+}
+
+
+/* ==== LINK AKSI ==== */
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a.edit {
+    color: #2563eb;
+    /* biru */
+}
+
+a.hapus {
+    color: #dc2626;
+    /* merah */
+}
+
+a.edit:hover,
+a.hapus:hover {
+    text-decoration: underline;
+}
